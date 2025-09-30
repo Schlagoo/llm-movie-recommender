@@ -55,7 +55,7 @@ for index, movie in enumerate(data):
     synopsis = get_synopsis(url=url)
     genres, timestamp, directors, stars = get_further_details(url=url)
     data[index]["genres"] = genres
-    data[index]["date"] = timestamp
+    data[index]["date"­­] = timestamp
     data[index]["directors"] = directors
     data[index]["stars"] = stars
     data[index]["synopsis"] = synopsis
